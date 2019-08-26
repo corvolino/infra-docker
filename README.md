@@ -16,7 +16,9 @@ creation of work development in docker
 
 <strong>Para usuários do docker toolbox, o projeto deve ser clonado dentro da pasta pessoal do usuário</strong><br>
 
-<strong>Todos os projetos web devem ficar na pasta <strong>sites</strong> do projeto</strong>
+<strong>Todos os projetos web devem ficar na pasta sites do projeto</strong><br>
+
+<strong>Dentro do PHP não esqueça de  digitar </strong><code>php artisan key:generate</code> <strong>ok?</strong><br>
 
 * Configurando Dominio Local
 
