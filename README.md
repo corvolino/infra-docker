@@ -60,7 +60,7 @@ creation of work development in docker
     1 - Ir até a pasta <code>nginx</code> e Editar as diretivas do arquivo sites.conf:<br>
       <code>root /var/www/html/teste;</code> Alterar O final "teste" pelo nome da pasta do seu projeto.<br>
       <code>server_name site.dev;</code> (Colocar o dominio local criado).<br>
-      OBS: Caso projeto seja laravel adicionar <code>public</code> após nome do projeto.
+      OBS: Caso projeto seja laravel adicionar <code>public</code> após nome do projeto.<br>
     1.1 - Edite localmente seu <code>/etc/hosts</code> e adicione o mesmo nome no qual adicionou em <code>server_name</code><br>
     2 - Reiniciar o container pelo vscode caso modifique algo.<br>
     3 - Caso queira criar mais VirtualHost, crie uma copia do arquivo <code>sites.conf</code> na mesma pasta, renomeie-o de acordo a sua escolha (ex.: projeto.conf) e repita o processo adaptando-se ao novo arquivo criado.<br>
